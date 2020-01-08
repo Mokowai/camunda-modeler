@@ -16,7 +16,7 @@ Place a `flags.json` file inside the `resources` folder of your local [`{USER_DA
 
 ### Configure via CLI
 
-Pass flags via the command line when starting the application. 
+Pass flags via the command line when starting the application.
 
 ```
 camunda-modeler --disable-plugins
@@ -35,6 +35,8 @@ Flags passed as command line arguments take precedence over those configured via
 | "disable-dmn" | false |
 | "single-instance" | false |
 | "user-data-dir" | [Electron default](../search-paths) |
+| "disable-server-interaction" | false |
+| "updates-server-url" | https://camunda-modeler-updates.camunda.com/ |
 
 
 ## Examples
